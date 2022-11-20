@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.uday.springboot.ResourceNotFoundException;
 import com.uday.springboot.entity.User;
+import com.uday.springboot.exceptions.ResourceNotFoundException;
 import com.uday.springboot.repository.UserRepository;
 
 @RestController
